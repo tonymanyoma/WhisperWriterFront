@@ -1,18 +1,23 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <recordAudio/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
+import recordAudio from './whisper/components/recordAudio.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    recordAudio
+  },
+
+  methods: {
+      callback (data) {
+        console.debug(data)
+      }
+    }
 }
 </script>
 

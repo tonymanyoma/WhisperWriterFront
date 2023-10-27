@@ -1,24 +1,20 @@
-# whisper_front
+# Whisper Writer Front
 
-## Project setup
-```
-npm install
-```
+> Record and convert audios to text
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+# Getting Started
 
-### Compiles and minifies for production
-```
-npm run build
-```
+> According to general purpose you need to configure and follows next steps
 
-### Lints and fixes files
-```
-npm run lint
-```
+## Configuration and Prerequisites
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+  - Node 18.15.0
+## Instalation
+
+  - Clone the repository
+  - Execute npm install
+  - Create .env file based to .env.example 
+
+
+ ## Run project
+ - npm run serve
